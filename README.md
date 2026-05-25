@@ -31,6 +31,13 @@ Get a free key at console.groq.com (no credit card needed).
 | AI Mode (default) | Groq key in Secrets | Same as manual human work |
 | Basic Mode | No key | Decent rule-based extraction |
 
+## Quota dashboard
+
+After processing a PDF in AI mode, the sidebar shows your Groq API usage:
+- Requests remaining / total (with color-coded progress bar)
+- Tokens remaining
+- Updates after every PDF processed
+
 ## Local dev
 ```bash
 pip install -r requirements.txt
